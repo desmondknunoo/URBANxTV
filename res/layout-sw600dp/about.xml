@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/urbanxtv_written" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d7d7d7"
+        android:gravity="center"
+        android:textColor="#111111"
+        android:text="One Step Ahead With GH GOSPEL entertainment."/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0390af"
+        android:gravity="center"
+        android:text="© 2016 URBΔNxTV. All rights reserved."
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:gravity="center"
+        android:text="© 2016 NDK Production. All rights reserved."
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d7d7d7"
+        android:gravity="center"
+        android:text="Version 1.0.1"
+        android:textColor="#111111" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+            android:background="@drawable/bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n	Airs On Trust Tv Sundays 7pm and Repeat on Tuesdays 2pm | Faith Tv Sundays 6pm and Wednesdays 5pm. 
+
+ \n\n	Christian Television Content | Urban X Jams | Gh Top10 | StudioBitz | Urban Xclusive | Urban Lifestyle | In-N-Out | Mic Session | Back2Back | Meet Da Directors and Producers | SmashOrHit | Urban Xtra.  
+
+\n\nDescription; 
+\n	URBANx Television is a Christian community portal Internet television service that legally streams Ghanaian and Africa Gospel inspired Christian video content worldwide. Our catalogue of videos include; Television Content | Urban X Jams| Gospel Music Videos | StudioBitz | Artist Spot | Fashion | In-N-Out | Open Mic Session | Back2Back | Meet Da Directors and Producers, SmashOrHit, Events Coverage and Promo, Photos.Which everything gospel entertainment is shared, downloaded and uploaded.  
+
+\n\nThe ultimate aim of this ministry is to promote Ghana&apos;s gospel entertainment, and not only that but to provide up and coming musicians with the opportunity to market themselves freely through. Our Mission is &apos;to create the best gospel television entertainment in Africa and beyond&apos;. To this effect we have invested significantly in local productions, which are set to make Africa a significant player on the entertainment global arena. Productions such as Urban Xclusive are set to captivate audiences from Ghana to Africa and indeed the rest of the world. Whereas the adaptation of world-renowned shows such as Urban X Lifestyle and In-N-Out endeavours to keep our subscribers in touch with world-class shows. We call it magic! And we shall strive to keep the &apos;magic&apos; flowing. 
+
+\n\nTHE DEFINITION OF CHRISTIAN ENTERTAINMENT TV...  
+
+\n\n	With the aim to preach Jesus Christ to people of all ages especially the youth of Ghana and Africa through rich and Spirit filled Christian Entertainment. 
+ In future we wish to achieve this more by Operating our own 24/7 Channel and offering free Christian movies, series, reality TV, news, interviews, sermons and more. 
+(Go to &apos;Contact Us&apos; in the app for direct links to our social media handles)..         .
+
+ \n\nTo have us cover/promote your event, call any of the numbers below."
+                android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+                android:textColor="#111111"
+                android:typeface="serif" />
+            
+            <Button
+                android:id="@+id/Buttoncall1"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_menu_call"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:text="+233-542-848-824" />
+
+            <Button
+                android:id="@+id/buttoncall2"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_menu_call"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:text="+233-500-295-851" />
+        </LinearLayout>
+    </ScrollView>
+
+    
+</LinearLayout>

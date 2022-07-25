@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0390af"
+        android:text="Contact Us"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Tap any icon to connect with us\non social media."
+        android:textColor="#0390af" />
+
+    <ImageButton
+        android:id="@+id/ImageButton06"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fb"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="facebook.com/urbanxtv" />
+
+    <ImageButton
+        android:id="@+id/ImageButton05"
+        android:layout_width="50dp"
+        android:layout_gravity="center" 
+        android:layout_height="50dp"
+        android:background="@drawable/tw"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="twitter.com/urbanxtv" />
+
+    <ImageButton
+        android:id="@+id/ImageButton04"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" 
+        android:background="@drawable/ig_two"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="instagram.com/urbanxtv" />
+
+    <ImageButton
+        android:id="@+id/ImageButton02"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center" 
+        android:background="@drawable/gm" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="urbanxtv1@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingTop="60dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2016 URBΔNxTV. All rights reserved." />
+
+</LinearLayout>

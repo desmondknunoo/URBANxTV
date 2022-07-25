@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dkn.desmondenergeo.urbanxtv.Home" 
+    android:background="@drawable/about" >
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:background="@drawable/store_ic" />
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_below="@+id/imageButton6"
+        android:background="@drawable/request_ic" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:background="#ffffff" />
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffff" />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:scaleType="fitCenter"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton9"
+        android:background="@drawable/live_ic" />
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/imageButton5"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:background="@drawable/video_ic" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/imageButton8"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="@drawable/contact_ic" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/imageButton7"
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:background="@drawable/music_ic" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitStart"
+        android:layout_above="@+id/imageButton6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/tab_top" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/imageButton3"
+        android:background="@drawable/events_ic" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/about_ic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/the2" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="108dp"
+        android:layout_height="130dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageButton6"
+        android:background="@drawable/radio_ic" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffff"/>
+
+</RelativeLayout>

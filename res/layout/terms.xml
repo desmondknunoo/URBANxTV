@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions" 
+        android:textColor="#ffffff"
+    android:background="#0390af"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTerms of Service
+
+\n\n1. Your Acceptance
+
+\n\nThis is an agreement between URBΔNxTV, the owner and operator of www.urbanxtv.wordpress.com (the “URBΔNxTV blog”) together with Desmond Energeo of NDK Production, the URBΔNxTV app (the “URBΔNxTV” or “URBΔNxTV application”) developer and you (“you” or “You”), a user of the Service. BY USING THE SERVICE, YOU ACKNOWLEDGE AND AGREE TO THESE TERMS OF SERVICE, AND WHICH ARE INCORPORATED HEREIN BY REFERENCE. If you choose to not agree with any of these terms, you may not use the Service. 
+
+\n\n\n2. URBΔNxTV Service
+
+\n\nThese Terms of Service apply to all users of the URBΔNxTV Service. Information provided by our users through the URBΔNxTV Service may contain links to third party websites that are not owned or controlled by URBΔNxTV. URBΔNxTV has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party websites. In addition, URBΔNxTV will not and cannot censor or edit the content of any third-party site. By using the Service, you expressly acknowledge and agree that URBΔNxTV shall not be responsible for any damages, claims or other liability arising from or related to your use of any third-party website. 
+
+\n\n\n3. URBΔNxTV Access
+
+\n\nA. Subject to your compliance with these Terms of Service, URBΔNxTV hereby grants you permission to use the Service, provided that: (i) your use of the Service as permitted is solely for your personal use, and you are not permitted to resell or charge others for use of or access to the Service, or in any other manner inconsistent with these Terms of Service; (ii) you will not duplicate, transfer, give access to, copy or distribute any part of the Service in any medium without URBΔNxTV’s prior written authorization; (iii) you will not attempt to reverse engineer, alter or modify any part of the Service; and (iv) you will otherwise comply with the terms and conditions of these Terms of Service. 
+
+\n\nB. In order to access and use the features of the Service, you acknowledge and agree that you will have to provide URBΔNxTV with your mobile phone number. You expressly acknowledge and agree that in order to provide the Service, URBΔNxTV may periodically access your contact list and/or address book on your mobile device to find and keep track of mobile phone numbers of other users of the Service. When providing your mobile phone number, you must provide accurate and complete information. You hereby give your express consent to URBΔNxTV to access your contact list and/or address book for mobile phone numbers in order to provide and use the Service. We do not collect names, addresses or email addresses, just mobile phone numbers. You are solely responsible for the status messages that you submit and that are displayed for your mobile phone number on the URBΔNxTV Service. You must notify URBΔNxTV immediately of any breach of security or unauthorized use of your mobile phone. Although URBΔNxTV will not be liable for your losses caused by any unauthorized use of your account, you may be liable for the losses of URBΔNxTV or others due to such unauthorized use. 
+
+\n\nC. You agree not to use or launch any automated system, including without limitation, 'robots,' 'spiders,' 'offline readers,' etc. or 'load testers' such as wget, apache bench, mswebstress, httpload, blitz, Xcode Automator, Android Monkey, etc., that accesses the Service in a manner that sends more request messages to the URBΔNxTV servers in a given period of time than a human can reasonably produce in the same period by using a URBΔNxTV application, and you are forbidden from ripping the content unless specifically allowed. Notwithstanding the foregoing, URBΔNxTV grants the operators of public search engines permission to use spiders to copy materials from the website for the sole purpose of creating publicly available searchable indices of the materials, but not caches or archives of such materials. URBΔNxTV reserves the right to revoke these exceptions either generally or in specific cases. While we don't disallow the use of sniffers such as Ethereal, tcpdump or HTTPWatch in general, we do disallow any efforts to reverse-engineer our system, our protocols, or explore outside the boundaries of the normal requests made by URBΔNxTV clients. We have to disallow using request modification tools such as fiddler or whisker, or the like or any other such tools activities that are meant to explore or harm, penetrate or test the site. You must secure our permission before you measure, test, health check or otherwise monitor any network equipment, servers or assets hosted on our domain. You agree not to collect or harvest any personally identifiable information, including phone number, from the Service, nor to use the communication systems provided by the Service for any commercial solicitation or spam purposes. You agree not to spam, or solicit for commercial purposes, any users of the Service. 
+
+\n\n\n4. Intellectual Property Rights
+
+\n\nThe design of the URBΔNxTV Service along with URBΔNxTV created text, scripts, graphics, interactive features and the like, except Status Submissions (as defined below), and the trademarks, service marks and logos contained therein ('Marks'), are owned by or licensed to URBΔNxTV, subject to copyright and other intellectual property rights and foreign laws and international conventions. The Service is provided to you AS IS for your information and personal use only. URBΔNxTV reserves all rights not expressly granted in and to the Service. You agree to not engage in the use, copying, or distribution of any of the Service other than expressly permitted herein, including any use, copying, or distribution of Status Submissions of third parties obtained through the Service for any commercial purposes. 
+
+\n\n\n5. Personal Use Permission
+
+\n\nURBΔNxTV permits you to link to materials on the Service for personal purposes only. URBΔNxTV reserves the right to discontinue any aspect of the URBΔNxTV Service at any time. 
+
+\n\n\n6. Warranty Disclaimer
+
+\n\nYOU AGREE THAT YOUR USE OF THE URBΔNxTV SERVICE SHALL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, URBΔNxTV, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICE AND YOUR USE THEREOF. URBΔNxTV MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THIS SERVICE'S CONTENT AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVICE, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE THROUGH THE ACTIONS OF ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONSIN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE WHATSAPP SERVICE. URBΔNxTV DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE WHATSAPP SERVICE OR ANY HYPERLINKED WEBSITE OR FEATURED IN ANY USER STATUS SUBMISSION OR OTHER ADVERTISING, AND URBΔNxTV WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE. AND AGAIN, USE THIS JUST FOR FUN. 
+
+\n\n\n7. Limitation of Liability
+
+\n\nIN NO EVENT SHALL URBΔNxTV, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING FROM ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR SERVERS, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE BY ANY THIRD PARTY, (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF YOUR USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE URBΔNxTV CLIENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT THE COMPANY IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND/OR (VI) THE DISCLOSURE OF INFORMATION PURSUANT TO THESE TERMS OF SERVICE OR PRIVACY POLICY. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION. 
+
+\n\nYOU SPECIFICALLY ACKNOWLEDGE THAT WHATSAPP SHALL NOT BE LIABLE FOR USER SUBMISSIONS OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU. 
+
+\n\nThe Service is controlled and offered by URBΔNxTV from its facilities in the Ghana. URBΔNxTV makes no representations that the URBΔNxTV Service is appropriate or available for use in other locations. Those who access or use the URBΔNxTV Service from other jurisdictions do so at their own volition and are responsible for compliance with local law. 
+
+\n\n\n8. Indemnity
+
+\n\nYou agree to defend, indemnify and hold harmless URBΔNxTV, its parent corporation, officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees) arising from: (i) your use of and access to the URBΔNxTV Service; (ii) your violation of any term of these Terms of Service; (iii) your violation of any third party right, including without limitation any copyright, property, or privacy right; or (iv) any claim that one of your Status Submissions caused damage to a third party. This defense and indemnification obligation will survive these Terms of Service and your use of the URBΔNxTV Service. We don't support or encourage illegal consumption of alcohol or tobacco, so there. 
+
+\n\n\n9. Ability to Accept Terms of Service
+
+\n\nYou affirm that you are either more than 16 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms of Service, and to abide by and comply with these Terms of Service. In any case, you affirm that you are at least 16 years old as the URBΔNxTV Service is not intended for children under 16. If you are under 16 years of age, you are not permitted to use the URBΔNxTV Service. You further represent and warrant that you are not located in a country that is subject to a Ghana Government embargo, or that has been designated by the Ghana Government as a” terrorist-supporting” country, and that you are not listed on any Ghana Government list of prohibited or restricted parties. Desmond Energeo of NDK Production is the developer of this application, contact at desmondenergeo@gmail.com or call on +233 20 911 5337. 
+
+\n\n\n10. Assignment
+
+\n\nThese Terms of Service, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by URBΔNxTV  and NDK Production without restriction. 
+
+\n\n\n11. General
+
+\n\nYou agree that, (i) the URBΔNxTV Service shall be deemed solely based in Ghana, (ii) the URBΔNxTV Service shall be deemed a passive server that does not give rise to personal jurisdiction over URBΔNxTV, either specific or general, in jurisdictions other than Ghana, and (iii) that you agree to subject to the jurisdiction of Ghana in the event of any legal dispute. These Terms of Service shall be governed by the internal substantive laws of the Republic of Ghana, without respect to its conflict of laws principles. Any claim or dispute between you and WhatsApp that arises in whole or in part from the URBΔNxTV Service shall be decided exclusively by a court of competent jurisdiction located in Accra, Ghana. YOU AND URBΔNxTV AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE URBΔNxTV SERVICE MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED. 
+\n\nDate Last Modified: 03-06-2016"
+                android:typeface="normal"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"  />
+
+           
+ 
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

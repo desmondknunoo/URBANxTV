@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Source License" 
+        android:textColor="#ffffff"
+    android:background="#0390af"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opensource"
+                android:typeface="monospace" 
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\n\nApache License"
+                android:typeface="monospace" 
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Version 2.0, January 2004"
+                android:typeface="monospace" 
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+            
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="http://www.apache.org/licenses/"
+                android:typeface="monospace" 
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+            
+ <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION"
+                android:typeface="monospace"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"  />
+            
+
+                        
+ <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opensource2"
+                android:typeface="monospace" 
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+            
+
+ 
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
